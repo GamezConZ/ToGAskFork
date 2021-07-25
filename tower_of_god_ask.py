@@ -34,16 +34,17 @@ print("processing...\n")
 print("processing...\n")
 
 print("Thank you for waiting\n")
-print("Based on the responses you have provided and our calculations. Your ToG_Profile has been created and you are: ")
+print("Based on the responses you have provided and our calculations.\n Your ToG_Profile has been created and you are: \n")
+
 
 if user.favorite_character == "Bam" and user.consumtion_option == "W":
     print("Considered an ToG Expert! Your welcome pass and additional materials will come in the mail later today")
 
 elif user.consumtion_option == "W":
-    print("Considered ToG Expert in training. Maybe think about who your favorite character is")
+    print("Considered ToG Expert in training. Maybe think about who your favorite character is...")
 
 else:
-    print("Keep on keeping on friend. You have only scratched the surface of what the joy the show can bring you")
+    print("No profile has been created for you yet. Keep on keeping on friend. You have only scratched the surface of what the joy the show can bring you")
  
 
 
