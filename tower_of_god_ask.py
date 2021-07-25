@@ -6,7 +6,7 @@ class ToG_Profile:
         self.consumtion_option = consumtion_option_response
         
 
-print("welcome to the Tower of God (ToG) Ask Game")
+print("Welcome to the Tower of God (ToG) Ask Game and Profile Creator")
 print("Lets start with an easy question")
 
 answer1 = input("Who is your favorite character in ToG?")
