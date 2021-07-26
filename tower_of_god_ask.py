@@ -40,6 +40,9 @@ print("Based on the responses you have provided and our calculations.\n Your ToG
 if user.favorite_character == "Bam" and user.consumtion_option == "W":
     print("Considered an ToG Expert! Your welcome pass and additional materials will come in the mail later today")
 
+elif user.favorite_character == "Bam" and user.consumtion_option == "A":
+    print("Considered an ToG Novice! Your weclome package will come in the mail. However, keep training!")
+
 elif user.consumtion_option == "W":
     print("Considered ToG Expert in training. Maybe think about who your favorite character is...")
 
